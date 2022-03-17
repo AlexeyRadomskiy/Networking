@@ -44,6 +44,9 @@ extension CoursesViewController {
             
             do {
                 self.courses = try JSONDecoder().decode([Course].self, from: data)
+                DispatchQueue.main.async {
+                    self.tableView.reloadData()
+                }
             } catch let error {
                 print(error.localizedDescription)
             }
