@@ -54,6 +54,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6C89CFE627E8F9E500C7F817 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6C8FBCE427E21D020060E405 /* Course.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6C89CFE727E8F9F200C7F817 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6C8FBCE027E200F30060E405 /* UserActionCell.swift */,
+				6CA2512A27E2469C00EE6A0E /* CourseCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6C89CFE827E8F9FA00C7F817 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				6C89CFE427E8DDE400C7F817 /* NetworkManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		6C8FBCBA27E1F8960060E405 = {
 			isa = PBXGroup;
 			children = (
@@ -76,13 +101,12 @@
 			isa = PBXGroup;
 			children = (
 				6C8FBCDB27E1F8C80060E405 /* ViewControllers */,
+				6C89CFE627E8F9E500C7F817 /* Models */,
+				6C89CFE827E8F9FA00C7F817 /* Services */,
+				6C89CFE727E8F9F200C7F817 /* Views */,
 				6C8FBCDC27E1F8D60060E405 /* Storyboards */,
-				6C8FBCDD27E1F8E00060E405 /* Resources */,
 				6C8FBCDA27E1F8BE0060E405 /* App */,
-				6C8FBCE027E200F30060E405 /* UserActionCell.swift */,
-				6C8FBCE427E21D020060E405 /* Course.swift */,
-				6CA2512A27E2469C00EE6A0E /* CourseCell.swift */,
-				6C89CFE427E8DDE400C7F817 /* NetworkManager.swift */,
+				6C8FBCDD27E1F8E00060E405 /* Resources */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
